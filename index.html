@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+    <link rel="shortcut icon" href="./public/image/snake5.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>Snake Game</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <div id="menu-container">
+                <div id="menu-control">
+                    <div id="control">
+                        <form>
+                            <label for="control"><b>Level:</b></label>
+                            <select id="level" class="form" id="control">
+                                <option value="easy">Easy</option>
+                                <option value="normal" selected>Normal</option>
+                                <option value="difficult">Hard</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div id="start">
+                        <a class="button" href="javascript:history.go()">Start</a>
+                    </div>
+                </div>
+
+                <div id="scorearea">
+                    <form>
+                        <label>Score:</label>
+                        <input id="score" type="text" value=0 readonly>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="snakearea">
+            <canvas id="snake" width="512" height="512"></canvas>
+        </section>
+
+        <aside id="instructions">
+            <p> Instructions:</p><br>
+            <p>1- Select the difficult level of the game and click on any area to activate the commands.</p><br>
+            <p>2- Use the keybord keys to move the snake.</p><br>
+            <p>3- To start a new game click on the start button.</p><br>
+            <p>4- The purpose of the game is to collect as many fruits as possible.</p><br>
+        </aside>
+    </main>
+    <footer>
+        <p>This is a Collab4Fun project. Developed by Gabriela Queiroz and Pedro Lobo.</p>
+    </footer>
+
+    <script defer src="Js/script.js"></script>
+
+</body>
+
+</html>
