@@ -5,6 +5,7 @@
 	<a href="#snake-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#clubs-gaming">Gaming</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#bug-known-bugs">Known bugs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#balance_scale-license">License</a>	
 </p>
 
@@ -37,6 +38,11 @@ $ git clone git@github.com:Collab4Fun/SnakeGame.git
 ```
 
 Then access the `SnakeGame` folder, and open the `index.html` file in your browser by clicking twice.
+
+## :bug: Known bugs:
+- Sometimes the food spawns on the snake.
+- Sometimes the game ends when the snake changes directions, even without touching its head on itself.
+- It's possible to reverse the snake's direction when it's moving horizontally.
 
 ## :balance_scale: License
 
