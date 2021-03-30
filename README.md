@@ -12,6 +12,7 @@
 <p align="center">
     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lobophf/pig-game">	
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lobophf/pig-game">
+    <img alt="Issues" src="https://img.shields.io/github/issues/Collab4Fun/SnakeGame.svg">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> 
 
 <p>
