@@ -1,6 +1,6 @@
 <h1 align="center">:snake: Snake Game :snake:</h1>
 <p align="center">
-	<img height="350px" alt="screenshot" src="https://dl.dropboxusercontent.com/s/s48p6dgjx2znhk0/SnakeGame.png?dl=0">
+	<img width="85%" alt="screenshot" src="https://dl.dropboxusercontent.com/s/s48p6dgjx2znhk0/SnakeGame.png?dl=0">
 	<br>
 	<a href="#snake-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
